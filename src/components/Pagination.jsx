@@ -12,7 +12,7 @@ export default function Pagination() {
         {page > 1 && (
           <button 
             onClick={() => handlePageChange(page - 1)}
-            className="border-2 border-gray-300 py-1 px-4 rounded-md hover:to-blue-900"
+            className="border-2 border-gray-300 py-1 px-4 rounded-md hover:bg-blue-900"
           >
             Previous
           </button>
@@ -20,7 +20,7 @@ export default function Pagination() {
         {page < totalPages && (
           <button
             onClick={() => handlePageChange(page + 1)}
-            className="border-2 border-gray-300 py-1 px-4 rounded-md hover:to-blue-900"
+            className="border-2 border-gray-300 py-1 px-4 rounded-md hover:bg-blue-900"
           >
             Next
           </button>

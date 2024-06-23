@@ -13,7 +13,7 @@ const CategoryPage = () => {
     <Header />
     <div className='mt-24'>
     <button className=' ml-10 border-gray-300 px-2 cursor-pointer hover:bg-blue-600 rounded-md p-2 border-2 w-20' onClick={()=>navigate(-1)}>Back</button>
-    <h2 className=' text-center -mt-[40px]  text-2xl text-slate-600 font-bold underline '>
+    <h2 className=' text-center mt-4 text-2xl text-slate-600 font-bold underline '>
       Blogs Tagged with <span>#{category}</span>
     </h2>
     </div>
